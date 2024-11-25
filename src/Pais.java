@@ -9,7 +9,6 @@ public class Pais {
 
     public Pais(String nombre) {
         this.nombre = nombre;
-
     }
 
     public void agregarParticipante(Participante participante) {

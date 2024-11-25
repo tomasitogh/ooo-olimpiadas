@@ -3,8 +3,8 @@ import java.util.Set;
 
 public class Olimpiada {
 
-    Set<Pais> paises = new HashSet<>();
-    Set<Deporte> deportes = new HashSet<>();
+    private Set<Pais> paises = new HashSet<>();
+    private Set<Deporte> deportes = new HashSet<>();
 
     public void agregarDeporte(Deporte unDeporte) {
         this.deportes.add(unDeporte);
