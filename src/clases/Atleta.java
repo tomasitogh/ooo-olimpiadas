@@ -1,3 +1,5 @@
+package clases;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,5 +9,9 @@ public class Atleta extends Participante {
 
     public Atleta(String nombre, Deporte deporteEnQueParticipa) {
         super(nombre, deporteEnQueParticipa);
+    }
+
+    public int contarParticipantes(){
+        return 1;
     }
 }

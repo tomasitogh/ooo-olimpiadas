@@ -1,3 +1,5 @@
+package clases;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,4 +13,13 @@ public abstract class Participante {
         this.nombre = nombre;
         this.deporteEnQueParticipa = deporteEnQueParticipa;
     }
+
+    public void ganoMedalla(Medalla medalla){
+        medallasObtenidas.add(new Medalla(medalla.getTipoMedalla(), medalla.getOlimpiada() ));
+    }
+
+    public List<Medalla> getMedallasObtenidas() {
+        return medallasObtenidas;
+    }
+    public abstract int contarParticipantes();
 }

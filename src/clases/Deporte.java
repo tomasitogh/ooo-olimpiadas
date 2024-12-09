@@ -1,3 +1,5 @@
+package clases;
+
 public class Deporte {
 
     private String nombre;

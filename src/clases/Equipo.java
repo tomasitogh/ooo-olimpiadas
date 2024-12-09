@@ -1,3 +1,5 @@
+package clases;
+
 import java.util.HashSet;
 
 public class Equipo extends Participante {
@@ -10,5 +12,9 @@ public class Equipo extends Participante {
 
     public void agregarIntegrante(Atleta unAtleta) {
         integrantes.add(unAtleta);
+    }
+
+    public int contarParticipantes(){
+        return (integrantes.size());
     }
 }
